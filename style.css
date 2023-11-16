@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+}
+
+.One{
+    background-color: rgb(239, 132, 56);
+    padding: 10%;
+    color: white;
+    width: 400px;
+}
+
+.One h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.One input{
+    width: 100%;
+    margin: 1rem 0;
+    outline: none;
+    border: none;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.One button{
+    width:80px;
+    height: 20px;
+    color: rgb(239, 132, 56);
+    background-color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.Two{
+    height: 200px;
+    background-color: rgb(239, 132, 56);
+    width: 400px;
+    margin-top: 20px;
+}
+
+.Two h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
