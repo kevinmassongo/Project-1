@@ -36,7 +36,7 @@ body{
 
 .One button{
     width:80px;
-    height: 20px;
+    height: 30px;
     color: rgb(239, 132, 56);
     background-color: white;
     font-size: 1rem;
@@ -68,8 +68,29 @@ body{
 
 .img-container{
     background: url(./delete-button.png);
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-position: center;
     background-size: cover;
+    border: none;
+}
+
+.li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    cursor: pointer;
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+}
+
+
+.button{
+    background-color: skyblue;
+    border: none;
+    width: 10%;
+    cursor: pointer;
 }

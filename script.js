@@ -9,6 +9,7 @@ const checkSpace = (value) =>{
 
 const createButtonDelete = () => {
     const newButton = document.createElement('button');
+    newButton.classList.add('button')
     const buttonText = document.createElement('img');
     buttonText.classList.add('img-container')
     newButton.addEventListener('click',(e)=>{
@@ -21,10 +22,13 @@ const createButtonDelete = () => {
 
 const createTaskList = (value) =>{
     const newList = document.createElement('li');
+    newList.classList.add('li')
     const newListText = document.createTextNode(value.trim());
     const deleteButton = createButtonDelete();
     newList.appendChild(newListText);
-    newList.appendChild(deleteButton);
+    newList.addEventListener('mouseover',()=>{
+        newList.appendChild(deleteButton);
+    })
     return newList
 }
 
